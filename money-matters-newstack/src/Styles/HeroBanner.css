@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}  
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 24px;
+    margin-right: 16px;
+}
+
+.hero-buttons button:last-child {
+  margin-right: 0;
+}
+
+.hero-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0 0 20px 0;
+}
+
+.hero-text p {
+  font-size: 24px;
+  margin: 0 0 40px 0;
+}
+
+.hero-text button {
+  font-size: 24px;
+  padding: 15px 40px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.hero-text button:hover {
+  background-color: #005da3;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    background: radial-gradient(circle at 100% 0, #4FC0A3 40%, transparent 20%);
+    background-attachment: fixed;
+}
+  /* ------- */
+
+.get-started-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 20px;
+    background-color: #4FC0A3;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+    margin-right: 20px;
+  }
+  
+.get-started-button:hover {
+    background-color: #007f5f;
+}
+
+.watch-video-container {
+    display: inline-block;
+    display: 'flex';
+    align-items: 'center'
+}
+
+.watch-video-btn {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 20px 0;
+    /* border-radius: 20px; */
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+  }
+  
+.play-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    margin-right: 3px;
+  }
+
+.small {
+    font-size: 15px;
+}

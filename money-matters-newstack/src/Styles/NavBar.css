@@ -1,0 +1,80 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+display: flex;
+align-items: center;
+}
+
+.navbar-brand img {
+height: 40px;
+}
+
+.navbar-menu {
+list-style: None;
+display: flex;
+align-items: center !important;
+text-align: center !important;
+justify-content: center !important;
+}
+
+.navbar-menu-container {
+text-align: center;
+}
+
+.navbar-menu-container ul {
+display: flex;
+padding: 0;
+margin: 0;
+}
+
+.navbar-start {
+display: flex;
+align-items: center;
+}
+
+.navbar-item {
+padding: 10px;
+margin-right: 10px;
+color: #333;
+text-decoration: none;
+font-weight: bold;
+margin: 0 1rem;
+}
+
+.navbar-link {
+color: #000;
+text-decoration: none;
+}
+
+
+.navbar-link:hover {
+text-decoration: underline;
+}
+
+.navbar-item:hover {
+color: #555;
+}
+
+.navbar-end {
+display: flex;
+align-items: right;
+}
+
+.navbar-item:last-child {
+margin-right: 0;
+}
+
+.navbar-login {
+align-items: center;
+}
+
+.navbar-login-btn {
+font-family: 'Poppins', sans-serif;
+padding: 5px;
+}

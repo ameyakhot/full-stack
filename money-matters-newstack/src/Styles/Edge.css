@@ -1,0 +1,34 @@
+
+.edge-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    /* background-color: #4FC0A3; */
+}
+
+.edge-text {
+  flex: 1;
+}
+
+.edge-text h1 {
+  font-size: 48px;
+  margin: 0 0 20px 0;
+}
+
+.edge-text p {
+  font-size: 24px;
+  margin: 0 0 40px 0;
+}
+
+.edge-text button:hover {
+  background-color: #005da3;
+}
+
+.edge-image img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    background: radial-gradient(circle at 100% 0, #4FC0A3 40%, transparent 20%);
+    background-attachment: fixed;
+}
